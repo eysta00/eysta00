@@ -13,7 +13,7 @@ Tölvunarfæðinemi með áherslu á leikjaþróun í Háskóla Reykjavík. Ætl
 <div style="display: flex;  width: 100%; justify-content: space-between; max-height: 100px; align-items: center; margin 0 auto;">
   <img style="height: 100px" src="imgs/Unity_Logo.png" />
   <img style="height: 100px" src="imgs/Unreal_Logo.png" />
-  <img style="height: 100px" src="imgs/Aesprite_Logo.png" />
+  <img style="height: 100px" src="imgs/Aseprite_Logo.png" />
   <img style="height: 100px" src="imgs/Pico8_Logo.png" />
   <img style="height: 100px" src="imgs/OpenGL_Logo.png" />
   <img style="height: 100px" src="imgs/Ogre_Logo.png" />
