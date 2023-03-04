@@ -1,4 +1,4 @@
-# Heil og Sæl 👋 _**Eysteinn**_ heiti ég en vinir mínir kalla mig ✨_**Eista**_✨
+# Heil og Sæl👋 _**Eysteinn**_ heiti ég en vinir mínir kalla mig ✨ _**Eista**_ ✨
 
 Tölvunarfæðinemi með áherslu á leikjaþróun í Háskóla Reykjavík. Ætlast til að fikta mikið með leikjavélar og er komin langa leið núþegar. Einnig er mikil áhugi fyrir leikja-hönnun, gervigreind, flott viðmót, vefforritun og smá dass af vefþjónustum.
 * 📰 Stanslaust að skoða eitthvað nýtt og áhugvert nema þegar ég er að spila leiki.
@@ -10,6 +10,7 @@ Tölvunarfæðinemi með áherslu á leikjaþróun í Háskóla Reykjavík. Ætl
   * 🃏 Vefsíðu fyrir flottu verkefnin mín, ferilskrá og flott viðmót (eista.is  wip). 
 * 📬 Endilega hafðu samband við mig, upplýsingar mun verða á vefsíðu minni annars er email og linkedinn líka gott.
 * 🎮 Hérna fyrir neðan eru nokkrur tól sem ég hef komið í snertingu við.
+
 <div style="display: flex; gap: 10px; width: 50%; justify-content: space-between; max-height: 100px; align-items: center;">
   <img style="height: 60px" src="imgs/Unity_Logo.png" />
   <img style="height: 60px" src="imgs/Unreal_Logo.png" />
@@ -21,17 +22,3 @@ Tölvunarfæðinemi með áherslu á leikjaþróun í Háskóla Reykjavík. Ætl
   <img style="height: 60px" src="imgs/DotNet_Logo.png" />
   <img style="height: 60px" src="imgs/Docker_Logo.png" />
 </div>
-<!--
-**eysta00/eysta00** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
