@@ -10,7 +10,7 @@ Tölvunarfæðinemi með áherslu á leikjaþróun í Háskóla Reykjavík. Ætl
   * 🃏 Vefsíðu fyrir flottu verkefnin mín, ferilskrá og flott viðmót (eista.is  wip). 
 * 📬 Endilega hafðu samband við mig, upplýsingar mun verða á vefsíðu minni annars er email og linkedinn líka gott.
 * 🎮 Hérna fyrir neðan er tækni sem ég hef komið í snertingu við.
-<div style="display: flex;  width: 50%; justify-content: space-between; max-height: 100px; align-items: center; margin 0 auto;">
+<div style="display: flex; gap: 10px; width: 50%; justify-content: space-between; max-height: 100px; align-items: center; margin 0 auto;">
   <img style="height: 60px" src="imgs/Unity_Logo.png" />
   <img style="height: 60px" src="imgs/Unreal_Logo.png" />
   <img style="height: 60px" src="imgs/Aseprite_Logo.png" />
