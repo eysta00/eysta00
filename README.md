@@ -11,7 +11,7 @@ Tölvunarfæðinemi með áherslu á leikjaþróun í Háskóla Reykjavík. Ætl
 * 📬 Endilega hafðu samband við mig, upplýsingar mun verða á vefsíðu minni annars er email og linkedinn líka gott.
 * 🎮 Hérna fyrir neðan eru nokkrur tól sem ég hef komið í snertingu við.
 
-<div style="display: flex; gap: 10px; width: 50%; justify-content: space-between; max-height: 100px; align-items: center;">
+<div style="display: flex; gap: 10px; width: 50%; justify-content: space-evenly; max-height: 100px; align-items: center;">
   <img style="height: 60px" src="imgs/Unity_Logo.png" />
   <img style="height: 60px" src="imgs/Unreal_Logo.png" />
   <img style="height: 60px" src="imgs/Aseprite_Logo.png" />
