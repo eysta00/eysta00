@@ -1,0 +1,176 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Eysteinn Örn Jónsson",
+    "label": "Programmer",
+    "image": "eysteinn(Small).jpg",
+    "email": "eysi@live.com",
+    "phone": "(354) 694-4310",
+    "summary": "Ég er Nemi í HR að klára BSc í tölvunarfræði með sérsviði í leikjaþróun. Þar er ég búinn að læra í 4 ár og útskrifast á árinu. \n\nHef gaman að fjölbreyttum vinnum með góðu félagsskapi, öllu nörda dóti, forritun og leikjahönnun og ýmis meira.",
+    "location": {
+      "address": "Byggðarendi 16",
+      "postalCode": "108",
+      "city": "Reykjavík",
+      "countryCode": "IS"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "eysta00",
+        "url": "https://ww.github.com/eysta00"
+      },
+      {
+        "network": "Linkedin",
+        "username": "Eysteinn Örn Jónsson",
+        "url": "https://www.linkedin.com/in/eysteinn-orn-jonsson/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "DHL",
+      "location": "Hafnarfjörður",
+      "description": "Póstflutningsfyrirtæki",
+      "position": "Courier",
+      "url": "",
+      "startDate": "2022-07-01",
+      "endDate": "2022-08-01",
+      "summary": "Afhending á pöntunum til viðskiptavina í Reykjavík."
+    },
+    {
+      "name": "Útmörk (Reykjavíkurborg)",
+      "location": "Reykjavík",
+      "description": "Hverfastöðin Jafnasel",
+      "position": "Sumarliði",
+      "url": "https://www.reykjavik.is/gardyrkja",
+      "startDate": "2021-06-01",
+      "endDate": "2021-08-01",
+      "summary": "Grisjaði og gerði útivistarstíga í útmörkinni og skógræktarsvæðum innan byggðarinnar."
+    },
+    {
+      "name": "Mjöll Frigg",
+      "location": "Hafnarfjörður",
+      "description": "Hreinlætislausnir",
+      "position": "Almenn verksmiðjustörf",
+      "url": "https://mjollfrigg.is/",
+      "startDate": "2020-08-01",
+      "endDate": "2020-08-01",
+      "summary":  "Almenn störf í verksmiðju svo sem fylla flöskur, skrúfa tappa, hreinsa, pakka saman o.s.frv."
+    },
+    {
+      "name": "Útmörk (Reykjavíkurborg)",
+      "location": "Reykjavík",
+      "description": "Hverfastöðin Jafnasel",
+      "position": "Sumarliði",
+      "url": "https://www.reykjavik.is/gardyrkja",
+      "startDate": "2020-06-01",
+      "endDate": "2020-08-01",
+      "summary": "Grisjaði og gerði útivistarstíga í útmörkinni og skógræktarsvæðum innan byggðarinnar."
+    },
+    {
+      "name": "CPS Ráðgjöf",
+      "location": "Reykjavík",
+      "description": "",
+      "position": "Umsjónarmaður",
+      "url": "",
+      "startDate": "2018-02-01",
+      "endDate": "2020-04-01",
+      "summary": "Hugsa um og þrífa Airbnb húsnæði, svara viðskiptavinium og taka á móti þeim."
+    },
+    {
+      "name": "NNW",
+      "location": "Hafnarfjörður",
+      "description": "Staðsetningar-þjónustur og búnaður",
+      "position": "Driver",
+      "url": "https://nnw.is/",
+      "startDate": "2019-07-01",
+      "endDate": "2019-08-01",
+      "summary": "Hugsa um og keyra caravan út á land fyrir bíómyndaverkefni (svo sem StarTrek Discovery) þannig að leikarar væru með húsnæði á staðnum."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Háskóli Reykjavíkur",
+      "url": "https://www.ru.is/",
+      "area": "Tölvunarfræði (Þróun tölvuleikja)",
+      "studyType": "Bachelor",
+      "startDate": "2019-08-01",
+      "endDate": "",
+      "score": "7.52"
+    },
+    {
+      "institution": "Tækniskólinn",
+      "url": "https://www.tskoli.is/",
+      "area": "Tækni og vísindi",
+      "studyType": "Stúdentspróf",
+      "startDate": "2016-08-01",
+      "endDate": "2019-05-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Vef Forritun",
+      "level": "Intermediate",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React",
+        "React Native",
+        "Redux",
+        "Rest"
+      ]
+    },
+    {
+      "name": "Vef Þjónustur og Gagnagrunnar",
+      "level": "Intermediate",
+      "keywords": [
+        ".NET",
+        "Node.js",
+        "SQL",
+        "PostgreSQL",
+        "Sqlite",
+        "GraphQL",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Almenn Forritun",
+      "level": "Intermediate",
+      "keywords": [
+        "Python",
+        "C",
+        "C++",
+        "C#",
+        "F#",
+        "Java"
+      ]
+    },
+    {
+      "name": "Leikja þróun",
+      "level": "Intermediate",
+      "keywords": [
+        "Unity",
+        "Aesprite",
+        "Pico-8",
+        "Ogre 3D"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Íslenska",
+      "fluency": "Móðurmál"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00",
+    "theme": "elegant"
+  }
+}

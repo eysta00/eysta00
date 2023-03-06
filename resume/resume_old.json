@@ -1,0 +1,110 @@
+{
+    "jobs": [
+        {
+            "employer": "DHL",
+            "title": "Courier",
+            "underTitle": "Delivery Driver",
+            "start": "Júlí 2022",
+            "end": "Ágúst 2022",
+            "descriptionEng": "Delivering packages to customers in the Reykjavík area.",
+            "descriptionIs": "Afhending á pöntunum til viðskiptavina í Reykjavík."
+        },
+        {
+            "employer": "Útmörk (Reykjavíkurborg)",
+            "title": "Sumarliði",
+            "underTitle": "Náttúrumönnun",
+            "start": "Júní 2021",
+            "end": "Ágúst 2021",
+            "descriptionEng": "Clearing and trimming trees and setting up new trails.",
+            "descriptionIs": "Kvista og snyrta skóga og setja upp nýjar gönguleiðir."
+        },
+        {
+            "employer": "Mjöll Frigg",
+            "title": "Almenn verksmiðjustörf",
+            "underTitle": "",
+            "start": "Ágúst 2020",
+            "end": "Ágúst 2020",
+            "descriptionEng": "General factory work such as filling bottles, tightening caps, cleaning, packing etc.",
+            "descriptionIs": "Almenn störf í verksmiðju svo sem fylla flöskur, skrúfa tappa, hreinsa, pakka saman o.s.frv."
+        },
+        {
+            "employer": "Útmörk (Reykjavíkurborg)",
+            "title": "Sumarliði",
+            "underTitle": "Náttúrumönnun",
+            "start": "Júní 2020",
+            "end": "Ágúst 2020",
+            "descriptionEng": "Clearing and trimming trees and setting up new trails.",
+            "descriptionIs": "Kvista og snyrta skóga og setja upp nýjar gönguleiðir."
+        },
+        {
+            "employer": "CPS Ráðgjöf",
+            "title": "Umsjónarmaður",
+            "underTitle": "Airbnb",
+            "start": "Febrúar 2018",
+            "end": "Apríl 2020",
+            "descriptionEng": "Managing and cleaning an Airbnb property, answering guests and welcoming them.",
+            "descriptionIs": "Hugsa um og þrífa Airbnb húsnæði, svara viðskiptavinium og taka á móti þeim."
+        },
+        {
+            "employer": "NNW",
+            "title": "Driver",
+            "underTitle": "",
+            "start": "Júlí 2019",
+            "end": "Ágúst 2019",
+            "descriptionEng": "Managing and driving a caravan to the set of a movie (such as StarTrek Discovery) so that actors would have a place to stay.",
+            "descriptionIs": "Hugsa um og keyra caravan út á land fyrir bíómyndaverkefni (svo sem StarTrek Discovery) þannig að leikarar væru með húsnæði á staðnum."
+        }
+
+    ],
+    "technical skills": {
+        "Proficient": [
+            "Python",
+            "Aesprite"
+        ],
+        "Intermediate": [
+            "C++",
+            "C",
+            "C#",
+            ".NET",
+            "Unity",
+            "Javascript",
+            "HTML",
+            "CSS",
+            "SQL",
+            "Git",
+            "React",
+            "React Native",
+            "Node.js",
+            "Sqlite",
+            "PostgreSQL",
+            "F#",
+            "Rest"
+        ],
+        "Beginner": [
+            "Unreal Engine",
+            "Java",
+            "GraphQL",
+            "Docker",
+            "Pico-8"
+        ]
+
+    },
+    "education": [
+        {
+            "school": "Tækniskólinn",
+            "degree": "Stúdentspróf í tækni og vísindum",
+            "start": "Ágúst 2016",
+            "end": "Maí 2019"
+        },
+        {
+            "school": "Háskóli Reykjavíkur",
+            "degree": "BSc Tölvunarfræði (Þróun tölvuleikja)",
+            "start": "Ágúst 2019",
+            "end": "Núna"
+        }
+    ],
+    "languages": {
+        "Icelandic": "Móðurmál",
+        "English": "Fluent"
+    }
+}
