@@ -50,7 +50,11 @@ img {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-}</style>
+}
+.box {
+	flex: 1;
+}
+</style>
 </head>
 <body>
 	<div class="header">
@@ -66,10 +70,9 @@ img {
     </div>
     <img src='eysteinn(Small).jpg'>
 </div>
-
 <h2 id="um-mig">Um mig</h2>
-<p>Ég er Nemi í HR að klára BSc í tölvunarfræði með sérsviði í leikjaþróun. Þar er ég búinn að læra í 4 ár og útskrifast á árinu. </p>
-<p>Hef gaman að fjölbreyttum vinnum með góðu félagsskapi, öllu nörda dóti, forritun og leikjahönnun og ýmis meira.</p>
+<p>Er nemi í HR að klára BSC í tölvunarfræði.  Hef lagt áherslu á leikjaþróun en hef einnig áhuga á mörgum öðrum greinum. Undanfarið ári hefur gervigreind heillað mig því ég hef verið í námskeið í henni.</p>
+<p>Finnst gaman að því að vinna í hópi og á auðvelt með að vinna sjálfstætt. Skemmti mér yfir ýmislegu svo sem leikjahönnun, forritun og Dungeons and Dragons.</p>
 <hr>
 <h2 id="n-msferill">Námsferill</h2>
 <h3 id="h-sk-li-reykjav-k-bsc-t-lvunarfr-i-r-un-t-lvuleikja-">Háskóli Reykjavík - BSc. Tölvunarfræði (Þróun tölvuleikja)</h3>
@@ -77,19 +80,25 @@ img {
 <h3 id="t-knisk-linn-t-kni-og-v-sindabraut">Tækniskólinn - Tækni og vísindabraut</h3>
 <p><strong>Ágúst 2016 - Maí 2019</strong></p>
 <hr>
-<h2 id="t-knikunn-tta">Tæknikunnátta</h2>
 
-<h3>Vef Forritun</h3>
-<p><strong>HTML, CSS, Javascript, React, React Native, Redux, Rest</strong></p>
+<div class="box">
+	<h2 id="t-knikunn-tta">Tæknikunnátta</h2>
 
-<h3>Vef Þjónustur og Gagnagrunnar</h3>
-<p><strong>.NET, Node.js, SQL, PostgreSQL, Sqlite, GraphQL, Docker</strong></p>
+	<h3>Vef Forritun</h3>
+	<p><strong>HTML, CSS, Javascript, React, React Native, Redux, Rest</strong></p>
 
-<h3>Almenn Forritun</h3>
-<p><strong>C#, C++, C, Java, Python, F#</strong></p>
+	<h3>Vef Þjónustur og Gagnagrunnar</h3>
+	<p><strong>.NET, Node.js, SQL, PostgreSQL, Sqlite, GraphQL, Docker</strong></p>
 
-<h3>Leikjaþróun</h3>
-<p><strong>Unity, Unreal, Aseprite, Pico-8, Ogre 3D</strong></p>
+	<h3>Almenn Forritun</h3>
+	<p><strong>C#, C++, C, Java, Python, F#</strong></p>
+
+	<h3>Leikjaþróun</h3>
+	<p><strong>Unity, Unreal, Aseprite, Pico-8, Ogre 3D</strong></p>
+</div>
+<!-- <div class="box">
+	<h2 id="verkefni"> Verkefni</h2>
+</div> -->
 
 <hr>
 <h2 id="starfsferill">Starfsferill</h2>
@@ -100,22 +109,23 @@ img {
 
 <h3 id="sumarli-i-tm-rk-reykjav-kurborg-https-www-reykjavik-is-gardyrkja-">Sumarliði - <a href="https://www.reykjavik.is/gardyrkja">Útmörk (Reykjavíkurborg)</a></h3>
 	<p><strong>Júní 2021 - Ágúst 2021</strong></p>
-	<p>Grisjaði og gerði útivistarstíga í útmörkinni og skógræktarsvæðum innan byggðarinnar.</p>
+	<p>Gerð útvistarstíga fyrir göngufólk. Grisjun á skógræktarsvæðum Reykjavíkurborgar.</p>
 
 <h3 id="almenn-verksmi-just-rf-mj-ll-frigg-https-www-mjollfrigg-is-">Almenn verksmiðjustörf - <a href="https://www.mjollfrigg.is/">Mjöll Frigg</a></h3>
 	<p><strong>Ágúst 2020</strong></p>
-	<p>Almenn störf í verksmiðju svo sem fylla flöskur, skrúfa tappa, hreinsa, pakka saman o.s.frv.</p>
+	<p>Almenn verksmiðjustörf svo sem fylla flöskur, skrúfa tappa, þrífa, pakka saman.</p>
 
 <h3 id="sumarli-i-tm-rk-reykjav-kurborg-https-www-reykjavik-is-gardyrkja-">Sumarliði - <a href="https://www.reykjavik.is/gardyrkja">Útmörk (Reykjavíkurborg)</a></h3>
 	<p><strong>Júní 2020 - Ágúst 2020</strong></p>
-	<p>Grisjaði og gerði útivistarstíga í útmörkinni og skógræktarsvæðum innan byggðarinnar.</p>
+	<p>Gerð útvistarstíga fyrir göngufólk. Grisjun á skógræktarsvæðum Reykjavíkurborgar.</p>
 
 <h3 id="umsj-narma-ur-cps-r-gj-f">Umsjónarmaður - CPS Ráðgjöf</h3>
 	<p><strong>Febrúar 2018 - Apríl 2020</strong></p>
-	<p>Hugsa um og þrífa Airbnb húsnæði, svara viðskiptavinium og taka á móti þeim.</p>
+	<p>Umsjón með útleigu á húsnæði. Fólst í samskiptum við gesti (flestir erlendir) fyrir komu, kynningu á komu degi þar sem farið var yfir húsnæði, ferðamöguleikum og umhverfi. Síðar þjónustu á dvalar tíma ef með þurft.</p>
+	<p>Undirbúa íbúð fyrir næsta hóp, sem fólst í þrifum og innkaupum á aðföngum. Kynntist fólki með mismunandi þarfi frá mismunandi löndum</p>
 
 <h3 id="driver-nnw-https-nnw-is-">Driver - <a href="https://nnw.is/">NNW</a></h3>
 	<p><strong>Júlí 2019 - Ágúst 2019</strong></p>
-	<p>Hugsa um og keyra caravan út á land fyrir bíómyndaverkefni (svo sem StarTrek Discovery) þannig að leikarar væru með húsnæði á staðnum.</p>
+	<p>Akstur á hjólhýsi út á land fyrir bíómyndaverkefni (svo sem <i>StarTrek Discovery</i>) og umsjón með því. En það var notað sem húsnæði fyrir leikara á staðnum.</p>
 
 </body></html>
