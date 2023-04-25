@@ -1,5 +1,4 @@
 # Heil og Sæl👋
-## _**Eysteinn**_ heiti ég.
 
 Tölvunarfæðinemi með áherslu á leikjaþróun í Háskóla Reykjavík. Ætlast til að fikta mikið með leikjavélar og er komin langa leið núþegar. Einnig er mikil áhugi fyrir leikja-hönnun, gervigreind, flott viðmót, vefforritun og smá dass af vefþjónustum.
 * 📰 Stanslaust að skoða eitthvað nýtt og áhugvert nema þegar ég er að spila leiki.
