@@ -1,6 +1,6 @@
 # Heil og Sæl👋
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=eysta00&hide=contribs&exclude_repo=github-stats&theme=dracula&line_height=24&include_all_commits=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eysta00&layout=compact&theme=dracula&langs_count=6)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=eysta00&hide=contribs&exclude_repo=github-stats&theme=radical&line_height=24&include_all_commits=true&show_icons=true&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=eysta00&layout=compact&theme=radical&langs_count=6&bg_color=30,904e95,e96443&title_color=fff&text_color=fff)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 
