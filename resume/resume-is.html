@@ -1,20 +1,27 @@
 <html><head><style>*,
 body {
-	font-size: 0.9em;
+	font-size: 100%;
 	font-family: 'Berkeley Mono', monospace;
 }
 h1 {
-	font-size: 1.3rem;
+	font-size: 1.25em;
 }
 h2 {
-	font-size: 1.1rem;
+	font-size: 1.1em;
 }
 h3 {
-	font-size: 0.9rem;
+	font-size: 0.9em;
+}
+p {
+	font-size: 0.775em;
 }
 img {
 	/* add rounded corners to images */
 	border-radius: 1.0em;
+}
+
+@media print {
+    .pagebreak { page-break-before: always; } /* page-break-after works, as well */
 }
 
 .header {
@@ -27,7 +34,6 @@ img {
 }
 
 .header h1 {
-	font-size: 1.5rem;
 	margin: 0;
 }
 
@@ -39,7 +45,7 @@ img {
 }
 
 .header p {
-	font-size: 1.3em;
+	font-size: 1em;
 	margin: 0;
 	grid-column: 1;
 }
@@ -49,6 +55,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	font-size: 0.8em;
 }
 .box {
 	display: grid;
@@ -65,21 +72,21 @@ img {
         <p>Nám: Tölvunarfræði HR </p>
         <p>Sími: <a href="tel:+3546944310">694-4310 </a></p>
         <p>Email: <a href="mailto:eysi@live.com">eysi@live.com</a> </p>
-        <p>Github: <a href="https://www.github.com/eysta00">github.com/eysta00</a> </p>
-        <p>Linkedin: <a href="https://www.linkedin.com/in/eysteinn-orn-jonsson/">linkedin.com/in/eysteinn-orn-jonsson/</a> </p>
+        <p>Github: <a href="https://www.github.com/eysta00" target="_blank">github.com/eysta00</a> </p>
+        <p>Linkedin: <a href="https://www.linkedin.com/in/eysteinn-orn-jonsson/" target="_blank">linkedin.com/in/eysteinn-orn-jonsson/</a> </p>
         <p>Heimilisfang: Byggðarendi 16, 108 Reykjavík </p>
     </div>
     <img src='eysteinn(Small).jpg'>
 </div>
 <h2 id="um-mig">Um mig</h2>
-<p>Er nýútskrifaður úr HR með BSc í tölvunarfræði á leikjaþróun áherslusviðinu. Undanfarið ár hefur gervigreind heillað mig og það sést í Lokaverkefninu mínu sem fjallaði um að búa til gervigreind sem greinir viðhorf í texta, eða viðhorfsgreining</p>
-<p>Finnst gaman að því að vinna í hópi og á auðvelt með að vinna sjálfstætt. Skemmti mér yfir leikjahönnun, forritun, Dungeons and Dragons og gervigreind.</p>
+<p>Er nýútskrifaður með BSc í tölvunarfræði frá Háskóla Reykjavíkur með áherslusviðiða á þróun tölvuleikja. En undanfarið ár hef ég einnig lagt áherslu á gervigreind og var lokaverkefnið mitt á því svið, sem var að þróa gervigreind sem greinir viðhorf í texta þ.e. viðhorfsgreiningu.</p>
+<p>Nýta þess að vinna í hópi, en á einnig auðvelt með að vinna sjálfstætt. Áhugmálin mín eru útivera, leikjahönnun, forritun, Drekar og Dýflissur (Dungeons and Dragons), kvikmyndir og gervigreind.</p>
 <hr>
 <h2 id="n-msferill">Námsferill</h2>
 <h3 id="h-sk-li-reykjav-k-bsc-t-lvunarfr-i-r-un-t-lvuleikja-">Háskóli Reykjavík - BSc. Tölvunarfræði (Þróun tölvuleikja)</h3>
-<p><strong>Ágúst 2019 - Febrúar 2024 </strong></p>
+<p>Ágúst 2019 - Febrúar 2024 </p>
 <h3 id="t-knisk-linn-t-kni-og-v-sindabraut">Tækniskólinn - Tækni og vísindabraut</h3>
-<p><strong>Ágúst 2016 - Maí 2019</strong></p>
+<p>Ágúst 2016 - Maí 2019</p>
 <hr>
 
 <div class="box">
@@ -87,57 +94,63 @@ img {
 		<h2 id="t-knikunn-tta">Tæknikunnátta</h2>
 
 		<h3>Almenn Forritun</h3>
-		<p><strong>C#, C++, C, F#, Java, Python</strong></p>
+		<p>C#, C++, C, F#, Java, Python</p>
 
 		<h3>Leikjaþróun</h3>
-		<p><strong>Unity, Unreal, Aseprite, Pico-8, Ogre 3D, Godot</strong></p>
+		<p>Unity, Unreal, Aseprite, Pico-8, Ogre 3D, Godot</p>
 
 		<h3>Gervigreind</h3>
-		<p><strong>Pytorch, Numpy, Pandas, Scikit-learn</strong></p>
+		<p>Pytorch, Pandas, Scikit-learn</p>
 
 		<h3>Vef Forritun</h3>
-		<p><strong>HTML, CSS, Javascript, React, React Native, Redux, Rest</strong></p>
+		<p>HTML, CSS, Javascript, React, React Native, Redux, Rest</p>
 
 		<h3>Vef Þjónustur og Gagnagrunnar</h3>
-		<p><strong>.NET, Node.js, SQL, PostgreSQL, Sqlite, GraphQL, Docker</strong></p>
+		<p>.NET, Node.js, SQL, PostgreSQL, Sqlite, GraphQL, Docker</p>
 
 	</div>
 
 	<div>
 		<h2 id="verkefni">Verkefni</h2>
 		<h3 id="lokaverkefni">Lokaverkefni</h3>
-		<p> Gerði rannsóknar-lokaverkefni um að greina viðhorf í texta fyrir íslensku. Notuðum BERT og <a href="https://huggingface.co/Birkir/electra-base-igc-is-sentiment-analysis-google-translate">Electra</a> líkön til að greina viðhorf í texta og þjálfuðum þau á vélþýddum IMDB gögnum.
+		<p> Gerði rannsóknar-lokaverkefni um að greina viðhorf í texta fyrir íslensku. Notuðum BERT og <a href="https://huggingface.co/Birkir/electra-base-igc-is-sentiment-analysis-google-translate" target="_blank">Electra</a> líkön til að greina viðhorf í texta og þjálfuðum þau á vélþýddum IMDB gögnum.
 		<h3 id="t-lvuleikir">Tölvuleikir</h3>
-		<p><a href="https://tomasiv.itch.io/paranormal-real-estate-hunter">Paranormal Real Estate Hunter</a></p>
-		<p>Fyrsti leikurinn: <a href="https://eysta.itch.io/final-court">Final Court</a></p>
-		
+		<p><a href="https://tomasiv.itch.io/paranormal-real-estate-hunter" target="_blank">Paranormal Real Estate Hunter</a></p>
+		<p>Fyrsti leikurinn: <a href="https://eysta.itch.io/final-court" target="_blank">Final Court</a></p>
+		<h3 id="dnd-club">Meðlimur hjá stjórn Borðdreka</h3>
+		<p>Ég tók þátt í stjórn Borðdreka sem voru félagssamtök og var með markmiðið að kynna fólki leikinn Drekar og dýflissu og aðstoða þeim sem vildu spila leikinn í HR á meðan COVID stóð yfir (2020 - 2022). Þar vorum við að skipuleggja viðburði og halda hópefli.</p>
 	</div>
 </div>
 
-
 <hr>
+
+<div class="pagebreak"> </div>
+
 <div class="box">
 	
 	<div>
 		<h2 id="starfsferill">Starfsferill</h2>
+	<h3 id="daematimakennari">Dæmatímakennari - Háskóli Reykjavík</h3>
+		<p><strong>Ágúst 2023 - Núverandi</strong></p>
+		<p>Meðfram vinnslu á lokaverkefninu var ég að sinna dæmatímakennslu í tölvusamskiptum og núna er ég að sinna dæmatímakennslu í Stýrikerfi.</p> 
 	<h3 id="rannsoknarstarf-mal-og-raddtaeknistofa"> Rannsóknarstarf - HR Mál- og raddtæknistofa</h3>
 		<p><strong>Julí 2023 - Ágúst 2023</strong></p>
-		<p>Aðstoðaði við að gera gervigreind sem gæti svarað spurningum á Íslensku með því að smíða staðl fyrir svör, sýja og merkja gögn frá <a href="https://gameqa.app/#/">GameQA</a> til að þjálfunar.</p>
+		<p>Tók þátt í verkefni, stjórnað af Njáli Skarphéðinssyni, við að þjálfa gervigreind sem gæti svarað spurningum á Íslensku. Verkefnið var fólgið í því að lagfæra/staðla gögn þannig að hægt væri að nýta þau til þjálfunar á breytilíkönum.  Notuðumst við gögn frá <a href="https://gameqa.app/#/" target="_blank">GameQA</a> tólinu.</p>
 	<h3 id="courier-dhl-express">Courier - DHL Express</h3>
 
 		<p><strong>Júlí 2022 - Ágúst 2022</strong></p>
 		<p>Afhending á pöntunum til viðskiptavina í Reykjavík.</p>
 
-	<h3 id="sumarli-i-tm-rk-reykjav-kurborg-https-www-reykjavik-is-gardyrkja-">Sumarliði - <a href="https://www.reykjavik.is/gardyrkja">Útmörk (Reykjavíkurborg)</a></h3>
+	<h3 id="sumarli-i-tm-rk-reykjav-kurborg-https-www-reykjavik-is-gardyrkja-">Sumarliði - <a href="https://www.reykjavik.is/gardyrkja" target="_blank">Útmörk (Reykjavíkurborg)</a></h3>
 		<p><strong>Júní 2021 - Ágúst 2021</strong></p>
 		<p>Gerð útvistarstíga fyrir göngufólk. Grisjun á skógræktarsvæðum Reykjavíkurborgar.</p>
-
-	<h3 id="almenn-verksmi-just-rf-mj-ll-frigg-https-www-mjollfrigg-is-">Almenn verksmiðjustörf - <a href="https://www.mjollfrigg.is/">Mjöll Frigg</a></h3>
-		<p><strong>Ágúst 2020</strong></p>
-		<p>Almenn verksmiðjustörf svo sem fylla flöskur, skrúfa tappa, þrífa, pakka saman.</p>
 	</div>
 	<div>
-	<h3 id="sumarli-i-tm-rk-reykjav-kurborg-https-www-reykjavik-is-gardyrkja-">Sumarliði - <a href="https://www.reykjavik.is/gardyrkja">Útmörk (Reykjavíkurborg)</a></h3>
+	<h3 id="almenn-verksmi-just-rf-mj-ll-frigg-https-www-mjollfrigg-is-">Almenn verksmiðjustörf - <a href="https://www.mjollfrigg.is/" target="_blank">Mjöll Frigg</a></h3>
+		<p><strong>Ágúst 2020</strong></p>
+		<p>Almenn verksmiðjustörf svo sem fylla flöskur, skrúfa tappa, þrífa, pakka saman.</p>
+		
+	<h3 id="sumarli-i-tm-rk-reykjav-kurborg-https-www-reykjavik-is-gardyrkja-">Sumarliði - <a href="https://www.reykjavik.is/gardyrkja" target="_blank"">Útmörk (Reykjavíkurborg)</a></h3>
 		<p><strong>Júní 2020 - Ágúst 2020</strong></p>
 		<p>Gerð útvistarstíga fyrir göngufólk. Grisjun á skógræktarsvæðum Reykjavíkurborgar.</p>
 
@@ -145,7 +158,7 @@ img {
 		<p><strong>Febrúar 2018 - Apríl 2020</strong></p>
 		<p>Umsjón með útleigu á húsnæði. Fólst í samskiptum við gesti fyrir komu, kynningu á komu degi þar sem farið var yfir húsnæði, ferðamöguleikum og umhverfi. Undirbúa íbúð fyrir næsta hóp og kynntist fólki með mismunandi þarfir frá mismunandi löndum.</p>
 
-	<h3 id="driver-nnw-https-nnw-is-">Driver - <a href="https://nnw.is/">NNW</a></h3>
+	<h3 id="driver-nnw-https-nnw-is-">Driver - <a href="https://nnw.is/" target="_blank">NNW</a></h3>
 		<p><strong>Júlí 2019 - Ágúst 2019</strong></p>
 		<p>Akstur á hjólhýsi út á land fyrir bíómyndaverkefni (<i>StarTrek Discovery</i>) og sá um það. Sem var notað sem húsnæði fyrir leikara.</p>
 	</div>
